@@ -65,6 +65,8 @@ schedulerName: default-scheduler
 dnsPolicy: ClusterFirst
 # -- Configure DNS Config for the pod
 dnsConfig: {}
+# -- Override the default scheduler
+schedulerName: ""
 #  options:
 #    - name: ndots
 #      value: "1"
